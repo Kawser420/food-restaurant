@@ -127,10 +127,16 @@
   background: rgba(82, 195, 3, 0.15);
   border-radius: 5px;
 }
+#food-contact {
+  width: 1360px;
+}
 .food-info {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.food-area {
+  background-color: azure;
 }
 .food-details .title {
   color: rgb(16, 16, 16);
@@ -161,10 +167,7 @@
   text-align: center;
   opacity: 0.7;
 }
-.food-img img {
-  width: 682px;
-  margin: 10px auto;
-}
+
 .food-social-contact {
   display: flex;
   justify-content: center;
