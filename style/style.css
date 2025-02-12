@@ -171,3 +171,8 @@
   align-items: center;
   gap: 15px;
 }
+
+footer {
+  background-image: url("../assets/social-bg.png");
+  padding: 100px;
+}
