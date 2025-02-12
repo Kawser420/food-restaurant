@@ -127,3 +127,47 @@
   background: rgba(82, 195, 3, 0.15);
   border-radius: 5px;
 }
+.food-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food-details .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.food-details .description {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+.food-details .contact-follow {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.food-img img {
+  width: 682px;
+  margin: 10px auto;
+}
+.food-social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
