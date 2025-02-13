@@ -16,7 +16,7 @@
       <!-- section>div>p+h1+p+button -->
       <section id="hero">
         <div class="hero-content">
-          <p class="sub-title">Shop The Hottest Food</p>
+          <p onclick="welcome()" class="sub-title">Savor the Flavors</p>
           <h1 class="title">Experience Culinary Excellence Food Experience</h1>
           <p class="description">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -24,7 +24,7 @@
             making it over 2000 years old. Richard McClintock
           </p>
           <div class="btn-container">
-            <button class="btn">Savor the Flavors</button>
+            <button onclick="welcome()" class="btn">Get discount now</button>
           </div>
         </div>
       </section>
@@ -118,5 +118,11 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function welcome() {
+        alert("Code: Winter333");
+      }
+    </script>
   </body>
 </html>
